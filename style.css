@@ -185,8 +185,9 @@ strong{
     border-radius: 5px;
 }
 .num{
+    margin-top: 15px;
     font-size: 12px;
-    line-height: 24px;
+    line-height: 27px;
     margin-top: 5px;
 }
 
@@ -226,11 +227,21 @@ strong{
             margin-top: 220px;
             margin-left: 30px;
         }
+        #product-painel{
+            width: 40%;
+
+        }
         #btn-submit{
             position: relative;
             top:150px;
+            width: 175px;
 
         }
-
+        .quantity-controller{
+            height: 35px;
+            width: 162px;
+            display: flex;
+            justify-content:space-around;
+        }
     }
 
