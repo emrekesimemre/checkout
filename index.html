@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+</head>
+<body>
+        <h1 id="checkout-title">Checkout</h1>
+    <main>
+        <form action="">
+            <div class="data-form" id="contact-information">
+                <h2>Contact information</h1>
+                <div class="campo"><i class="fas fa-envelope"></i>
+                <label for="">Email</label><br>
+                <input type="email" name="" id="user-email" placeholder="Enter your email..." >
+                <br>
+                </div>
+                <div class="campo"><i class="fas fa-phone-alt"></i>
+                <label for="">Phone</label><br>
+                <input type="tel" name="" id="user-phone-number" placeholder="Enter your phone...">
+                </div>
+            </div>
+
+            <div class="data-form" id="shipping-address">
+                <h2>Shipping address</h1>
+                <i class="fas fa-user"></i> <label for="">Full name</label><br>
+                <input type="text" name="" id="user-full-name" placeholder="Enter your Full name..."><br>
+                <i class="fas fa-home"></i> <label for="">Address</label><br>
+                <input type="text" name="" id="user-address" placeholder="Enter your address..."><br>
+                <i class="fas fa-city"></i> <label for="">City</label><br>
+                <input type="text" name="" id="user-city" placeholder="Enter your city">
+                <div class="campo" id="country-field">
+                    <i class="fas fa-globe-europe"></i> <label for="">Country</label><br>
+                    <select name="" id="user-country">
+                    <option value="Turkey">Turkey</option>
+                    <option value="Germany">Germany</option>
+                    <option value="USA">USA</option>
+                    <option value="Canada">Canada</option>
+                    <option value="UK">UK</option>
+                    </select>
+                </div>
+
+                <div class="campo" id="postal-code-field">
+                    <i class="fas fa-mail-bulk"></i> <label for="">Post Code</label><br>
+                    <input type="text" name="" id="user-postal-code" placeholder="Enter your postal code...">
+                </div>
+
+                <div class="campo">
+                    <input type="checkbox">
+                    <label for="">See this information next time
+                    </label>
+                </div>
+            </div>  
+        </form>
+        <div id="product-painel">
+            <div class="product">
+                <img class="bag" src="./photo1.png" alt="bag">
+            <div class="product.ınfo"> 
+                <h3>Vintage Backbag</h2>
+                <strong>$54.99</strong> 
+                <span class="line-through">$94.99</span>
+            <div class="quantity-controller">
+               <button class="minus">+</button> 
+               <span class="num">1</span>
+               <button class="plus">-</button> 
+            </div>
+            </div>   
+            </div>
+
+            <div class="product">
+                <img class="bag" src="./photo2.png" alt="shoes">
+            <div class="product.ınfo"> 
+                <h3>Levi Shoes</h2>
+                <strong>$74.99</strong> 
+                <span class="line-through">$124.99</span>
+            <div class="quantity-controller">
+               <button class="minus">+</button> 
+               <span class="num">1</span>
+               <button class="plus">-</button> 
+            </div>
+            </div>   
+            </div>
+            <div class="ship">
+            <p>$19</p>
+            <p>Shipping</p>
+            </div>
+            <div class="total">
+            <p>$148.98</p>
+            <p>Total</p>
+            </div>
+    </main>
+    <button id="btn-submit">Continue</button>
+</body>
+</html>

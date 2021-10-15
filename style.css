@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+#checkout-title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 15px 0px 15px 0;
+}
+main{
+    height: 612px;
+    width: 1003px;
+    margin: 2rem 0 2rem 0 ;
+    display: flex;
+    justify-content:center;
+
+}
+
+form{
+    height: 612px;
+    width: 372px;
+    margin: 0 150px 0 0;
+} 
+
+ 
+#contact-information{
+    height: 165px;
+    width: 372px;
+    position: relative;
+
+} 
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 15px 0 15px 0;
+    display: block;
+}
+label{
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    color: #4F4F4F;
+    height: 1rem;
+    width: 24rem;
+    margin: 10px 0 10px 0;
+}
+.campo{
+    height: 59px;
+    width: 372px;
+    margin: 10px 0 10px 0;
+}
+
+#user-email,
+#user-phone-number,
+#user-full-name,
+#user-address,
+#user-city{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #828282;
+    height: 2rem;
+    width: 416px;
+    padding: 8px 5px 8px 35px;
+    border-radius: 5px;
+    border: 1px solid #828282;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#shipping-address{
+    margin:50px 0 0 0 ;
+    height: 372px;
+    width: 372px;
+}
+
+#country-field{
+    display: inline-block;
+    height: 70px;
+    width: 120px;
+    margin: 10px 7px 10px 0;  
+}
+
+#user-country{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 34px;
+    width: 119px;
+    border: 1px solid #828282;
+    padding: 8px 5px 8px 35px;
+}
+
+#postal-code-field{
+    display: inline-block;
+    height: 69px;
+    width: 212px;
+    margin: 10px 0 10px 0;
+}
+
+#user-postal-code{
+    height: 34px;
+    width: 255px;
+}
+
+#product-painel{
+    font-family: 'Montserrat', sans-serif;
+    width: 320px;
+    height: 380px;
+    padding: 10px 20px;
+    background-color: #EEE;
+    bottom: 227px;
+    right: -42px;
+    display: flex;
+    flex-direction:column;
+    border-radius: 10px;
+}
+
+.product{
+    display: flex;
+   width: 320px;
+   height: 110px;
+   margin: 10px 0; 
+}
+
+.bag{
+    display: flex;
+    width: 96px;
+    width: 110px;
+    margin-right: 20px;
+    border-radius: 10px;
+   
+}
+.product.ınfo{
+    height: 110px;
+    width: 204px;
+}
+
+h3{
+    color: #4E5150;
+    font-size: 16px;
+    font-weight: 700;  
+    margin-top: 5px; 
+}
+strong{
+    font-weight: 600;
+    color: #F2994A;
+}
+.line-through{
+    font-size: 12px;
+    color: #4E5150;
+    text-decoration:line-through;
+}
+
+.quantity-controller{
+    
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid #888;
+    margin-top: 32px;
+    height: 35px;
+    width: 102px;
+    border-radius: 5px;
+}
+
+.minus{
+    background-color:#E0E0E0;
+    height: 25px;
+    width: 21px;
+    margin: 5px 0 5px 5px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.plus{
+    background-color:#E0E0E0;
+    height: 25px;
+    width: 21px;
+    margin: 5px 0 5px 5px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+.num{
+    font-size: 12px;
+    line-height: 24px;
+    margin-top: 5px;
+}
+
+.ship{ 
+    border-top: solid 1px #888;
+    margin: 30px 0 10px 0;
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content: space-between;
+}
+.total{
+    border-top: solid 1px #888;
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content: space-between;
+}
+
+#btn-submit{
+    background-color: #F2994A;
+    width: 75px;
+    height: 43px;
+    padding: 14px 0;
+    border-radius: 10px;
+    color: white;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    border:none;
+    position:absolute;
+    left: 32%;
+}
+
+
+@media screen and (max-width:540px){
+        main{
+            display: flex;
+            flex-direction: column-reverse;
+            margin-top: 220px;
+            margin-left: 30px;
+        }
+        #btn-submit{
+            position: relative;
+            top:150px;
+
+        }
+
+    }
+
