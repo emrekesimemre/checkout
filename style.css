@@ -103,6 +103,7 @@ label{
 #user-postal-code{
     height: 34px;
     width: 255px;
+    text-align: center;
 }
 
 #product-painel{
